@@ -1,0 +1,82 @@
+header {
+    text-align: center;
+    background-color: #331832;
+    padding: 4px;
+    color: #f9f9f9;
+    margin-bottom: 32px;
+}
+
+body {
+    background-color: #F7F6F1;
+}
+
+.elementoBar {
+    margin-left: 34px; 
+    margin-right: 34px;
+    display: inline-block; 
+    font-size: 24px;
+}
+
+#barra {
+    border-bottom: solid 1px #000;
+    width: 444px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+#boxInserir {
+    width: 416px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #ccc;
+    background-color: #f9f9f9;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+#textoInserir {
+    margin-top: 8px;
+    width: 410px;
+    border-radius: 4px;
+}
+
+#botaoInserir {
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.lixo {
+    height: 12px;
+    padding-top: 3px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    width: 416px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #ccc;
+    background-color: #f9f9f9;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+button:hover, .feito:hover {
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #331832;
+    color: #f9f9f9;
+    margin-top: 24px;
+}
