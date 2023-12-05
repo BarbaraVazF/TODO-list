@@ -7,7 +7,7 @@ function exibirLista(tarefa) {
     <ul class="itemTarefas">
         <input class="feito" type="checkbox"> 
         ${tarefa}
-        <button class="buttonExcluir"><img class="lixo" src="https://cdn-icons-png.flaticon.com/512/126/126468.png"></button>
+        <button class="buttonExcluir" onclick="apagarTarefa('${tarefa}')"><img class="lixo" src="https://cdn-icons-png.flaticon.com/512/126/126468.png"></button>
     </ul>
     `
     lista.appendChild(novoItem);
@@ -20,7 +20,15 @@ function inserirTarefa() {
     window.document.getElementById('textoInserir').value = ''
 }
 
-function atualizarTabela() {
-    tabela.innerHTML = '';
+function atualizarLista() {
+    lista.innerHTML = '';
     tarefas.forEach(exibirLista);
+}
+
+function apagarTarefa(tarefa) {
+    var indiceTarefa = tarefas.indexOf(tarefa);
+    if (indiceTarefa !== -1) {
+        tarefas.splice(indiceTarefa, 1);
+        atualizarLista();
+    }
 }
