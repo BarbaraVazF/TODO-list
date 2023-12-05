@@ -6,7 +6,7 @@ function exibirLista(tarefa) {
     novoItem.innerHTML = `
     <ul class="itemTarefas">
         <input class="feito" type="checkbox"> 
-        ${tarefa}
+        <p class="textoTarefa">${tarefa}</p>
         <button class="buttonExcluir" onclick="apagarTarefa('${tarefa}')"><img class="lixo" src="https://cdn-icons-png.flaticon.com/512/126/126468.png"></button>
     </ul>
     `

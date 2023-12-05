@@ -11,10 +11,12 @@ body {
 }
 
 .elementoBar {
-    margin-left: 34px; 
-    margin-right: 34px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    padding: 8px 24px;
     display: inline-block; 
     font-size: 24px;
+    border-radius: 4px;
 }
 
 #barra {
@@ -40,11 +42,25 @@ body {
     margin-top: 8px;
     width: 410px;
     border-radius: 4px;
+    word-break: break-all;
 }
 
 #botaoInserir {
     margin-top: 8px;
     border-radius: 4px;
+}
+
+.itemTarefas {
+    display: flex;
+}
+
+.feito {
+    transform: scale(1.5);
+}
+
+.textoTarefa {
+    margin: 0px 12px;
+    width: 344px;
 }
 
 .lixo {
@@ -69,6 +85,14 @@ ul {
 
 button:hover, .feito:hover {
     cursor: pointer;
+}
+
+#elemEspecifico {
+    background-color: #B2B1CF;
+}
+
+a {
+    color: #000;
 }
 
 footer {
