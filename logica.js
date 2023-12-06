@@ -40,10 +40,6 @@ function atualizarLista() {
             exibirLista(tarefa.descricao, false);
         }
     });
-
-    var btnFazer = document.getElementById('aFazer');
-    var btnFeitas = document.getElementById('feitas');
-
 }
 
 function apagarTarefa(tarefa) {
